@@ -7,27 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F7B5DB9008C8F8DE317C035 /* Pods_MidniteAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A530092CFD489A772FDF5D5E /* Pods_MidniteAssessment.framework */; };
 		9DE8C1A42791D0E900596339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A32791D0E900596339 /* AppDelegate.swift */; };
 		9DE8C1A62791D0E900596339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A52791D0E900596339 /* SceneDelegate.swift */; };
-		9DE8C1A82791D0E900596339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A72791D0E900596339 /* ViewController.swift */; };
+		9DE8C1A82791D0E900596339 /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A72791D0E900596339 /* MatchesViewController.swift */; };
 		9DE8C1AB2791D0E900596339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A92791D0E900596339 /* Main.storyboard */; };
 		9DE8C1AD2791D0EB00596339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8C1AC2791D0EB00596339 /* Assets.xcassets */; };
 		9DE8C1B02791D0EB00596339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8C1AE2791D0EB00596339 /* LaunchScreen.storyboard */; };
+		9DE8C1B82791E69400596339 /* MatchesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1B72791E69300596339 /* MatchesResponse.swift */; };
+		9DE8C1BA2791E6A500596339 /* BaseRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1B92791E6A500596339 /* BaseRequestProtocol.swift */; };
+		9DE8C1BC2791E6CC00596339 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1BB2791E6CC00596339 /* MatchesViewModel.swift */; };
+		9DE8C1BE2791E6DB00596339 /* MatchesNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1BD2791E6DB00596339 /* MatchesNetworkingManager.swift */; };
+		9DE8C1C02791E6ED00596339 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1BF2791E6ED00596339 /* Bindable.swift */; };
+		9DE8C1C22791E70800596339 /* GetMatchesAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1C12791E70800596339 /* GetMatchesAPIService.swift */; };
+		9DE8C1C42791E72300596339 /* GetMatchesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1C32791E72300596339 /* GetMatchesRequest.swift */; };
+		9DE8C1C62791E73800596339 /* APIRequestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1C52791E73800596339 /* APIRequestLoader.swift */; };
+		9DE8C1C82791E74B00596339 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1C72791E74B00596339 /* APIError.swift */; };
+		9DE8C1CA2791E75900596339 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1C92791E75900596339 /* APIServiceProtocol.swift */; };
+		9DE8C1CC2791E80200596339 /* MatchDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1CB2791E80200596339 /* MatchDetailsViewController.swift */; };
+		9DE8C1CE2791EEC100596339 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1CD2791EEC100596339 /* Coordinator.swift */; };
+		9DE8C1D02791EED100596339 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1CF2791EED100596339 /* AppCoordinator.swift */; };
+		9DE8C1D82791FE8000596339 /* MidniteAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1D72791FE8000596339 /* MidniteAssessmentTests.swift */; };
+		9DE8C1DF2791FEF900596339 /* MockMatches.json in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1DE2791FEF900596339 /* MockMatches.json */; };
+		9DE8C1E12791FF1700596339 /* MockMatchDetail.json in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1E02791FF1700596339 /* MockMatchDetail.json */; };
+		9DE8C1E6279202D700596339 /* MatchDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1E5279202D700596339 /* MatchDetailsViewModel.swift */; };
+		9DE8C1EA27920A5900596339 /* MatchCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1E927920A5900596339 /* MatchCellViewModel.swift */; };
+		9DE8C1EC27920A7C00596339 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1EB27920A7C00596339 /* MatchCell.swift */; };
+		9DE8C1EE279212A900596339 /* MockMatches.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8C1DE2791FEF900596339 /* MockMatches.json */; };
+		9DE8C1EF279330FC00596339 /* MockMatchDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8C1E02791FF1700596339 /* MockMatchDetail.json */; };
+		9DE8C1F12793685000596339 /* MatchDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1F02793685000596339 /* MatchDetailCell.swift */; };
+		9DE8C1F32793786F00596339 /* MatchDetailsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1F22793786F00596339 /* MatchDetailsCellViewModel.swift */; };
+		9DE8C1F527937F8800596339 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1F427937F8800596339 /* MatchesView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9DE8C1D92791FE8000596339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE8C1982791D0E900596339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE8C19F2791D0E900596339;
+			remoteInfo = MidniteAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		001DC11F0C428AC6448F7B58 /* Pods-MidniteAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidniteAssessment.debug.xcconfig"; path = "Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment.debug.xcconfig"; sourceTree = "<group>"; };
 		9DE8C1A02791D0E900596339 /* MidniteAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidniteAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE8C1A32791D0E900596339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE8C1A52791D0E900596339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DE8C1A72791D0E900596339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DE8C1A72791D0E900596339 /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
 		9DE8C1AA2791D0E900596339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DE8C1AC2791D0EB00596339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE8C1AF2791D0EB00596339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE8C1B12791D0EB00596339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE8C1B72791E69300596339 /* MatchesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesResponse.swift; sourceTree = "<group>"; };
+		9DE8C1B92791E6A500596339 /* BaseRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequestProtocol.swift; sourceTree = "<group>"; };
+		9DE8C1BB2791E6CC00596339 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		9DE8C1BD2791E6DB00596339 /* MatchesNetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesNetworkingManager.swift; sourceTree = "<group>"; };
+		9DE8C1BF2791E6ED00596339 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		9DE8C1C12791E70800596339 /* GetMatchesAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMatchesAPIService.swift; sourceTree = "<group>"; };
+		9DE8C1C32791E72300596339 /* GetMatchesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMatchesRequest.swift; sourceTree = "<group>"; };
+		9DE8C1C52791E73800596339 /* APIRequestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestLoader.swift; sourceTree = "<group>"; };
+		9DE8C1C72791E74B00596339 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		9DE8C1C92791E75900596339 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
+		9DE8C1CB2791E80200596339 /* MatchDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailsViewController.swift; sourceTree = "<group>"; };
+		9DE8C1CD2791EEC100596339 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9DE8C1CF2791EED100596339 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9DE8C1D52791FE8000596339 /* MidniteAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidniteAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE8C1D72791FE8000596339 /* MidniteAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidniteAssessmentTests.swift; sourceTree = "<group>"; };
+		9DE8C1DE2791FEF900596339 /* MockMatches.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockMatches.json; sourceTree = "<group>"; };
+		9DE8C1E02791FF1700596339 /* MockMatchDetail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockMatchDetail.json; sourceTree = "<group>"; };
+		9DE8C1E5279202D700596339 /* MatchDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailsViewModel.swift; sourceTree = "<group>"; };
+		9DE8C1E927920A5900596339 /* MatchCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellViewModel.swift; sourceTree = "<group>"; };
+		9DE8C1EB27920A7C00596339 /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		9DE8C1F02793685000596339 /* MatchDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailCell.swift; sourceTree = "<group>"; };
+		9DE8C1F22793786F00596339 /* MatchDetailsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailsCellViewModel.swift; sourceTree = "<group>"; };
+		9DE8C1F427937F8800596339 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		A530092CFD489A772FDF5D5E /* Pods_MidniteAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidniteAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35621C0CD42F530F3E3C028 /* Pods-MidniteAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidniteAssessment.release.xcconfig"; path = "Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9DE8C19D2791D0E900596339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7B5DB9008C8F8DE317C035 /* Pods_MidniteAssessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE8C1D22791FE8000596339 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A1AE480594B710C55FB9F0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A530092CFD489A772FDF5D5E /* Pods_MidniteAssessment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9DE8C1972791D0E900596339 = {
 			isa = PBXGroup;
 			children = (
 				9DE8C1A22791D0E900596339 /* MidniteAssessment */,
+				9DE8C1D62791FE8000596339 /* MidniteAssessmentTests */,
 				9DE8C1A12791D0E900596339 /* Products */,
+				FA6B220949805B2FA64965B2 /* Pods */,
+				2A1AE480594B710C55FB9F0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				9DE8C1A02791D0E900596339 /* MidniteAssessment.app */,
+				9DE8C1D52791FE8000596339 /* MidniteAssessmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +139,99 @@
 			children = (
 				9DE8C1A32791D0E900596339 /* AppDelegate.swift */,
 				9DE8C1A52791D0E900596339 /* SceneDelegate.swift */,
-				9DE8C1A72791D0E900596339 /* ViewController.swift */,
 				9DE8C1A92791D0E900596339 /* Main.storyboard */,
 				9DE8C1AC2791D0EB00596339 /* Assets.xcassets */,
 				9DE8C1AE2791D0EB00596339 /* LaunchScreen.storyboard */,
 				9DE8C1B12791D0EB00596339 /* Info.plist */,
+				9DE8C1E3279202A600596339 /* Coordinator */,
+				9DE8C1E22792028E00596339 /* Model */,
+				9DE8C1E4279202B800596339 /* Controller */,
+				9DE8C1E7279202EB00596339 /* ViewModel */,
+				9DE8C1ED27920A9200596339 /* View */,
+				9DE8C1E82792031100596339 /* Networking */,
 			);
 			path = MidniteAssessment;
+			sourceTree = "<group>";
+		};
+		9DE8C1D62791FE8000596339 /* MidniteAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8C1D72791FE8000596339 /* MidniteAssessmentTests.swift */,
+				9DE8C1DE2791FEF900596339 /* MockMatches.json */,
+				9DE8C1E02791FF1700596339 /* MockMatchDetail.json */,
+			);
+			path = MidniteAssessmentTests;
+			sourceTree = "<group>";
+		};
+		9DE8C1E22792028E00596339 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8C1B72791E69300596339 /* MatchesResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DE8C1E3279202A600596339 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8C1CD2791EEC100596339 /* Coordinator.swift */,
+				9DE8C1CF2791EED100596339 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9DE8C1E4279202B800596339 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8C1A72791D0E900596339 /* MatchesViewController.swift */,
+				9DE8C1CB2791E80200596339 /* MatchDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DE8C1E7279202EB00596339 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8C1BF2791E6ED00596339 /* Bindable.swift */,
+				9DE8C1BB2791E6CC00596339 /* MatchesViewModel.swift */,
+				9DE8C1E5279202D700596339 /* MatchDetailsViewModel.swift */,
+				9DE8C1E927920A5900596339 /* MatchCellViewModel.swift */,
+				9DE8C1F22793786F00596339 /* MatchDetailsCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DE8C1E82792031100596339 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8C1C32791E72300596339 /* GetMatchesRequest.swift */,
+				9DE8C1C12791E70800596339 /* GetMatchesAPIService.swift */,
+				9DE8C1BD2791E6DB00596339 /* MatchesNetworkingManager.swift */,
+				9DE8C1B92791E6A500596339 /* BaseRequestProtocol.swift */,
+				9DE8C1C52791E73800596339 /* APIRequestLoader.swift */,
+				9DE8C1C72791E74B00596339 /* APIError.swift */,
+				9DE8C1C92791E75900596339 /* APIServiceProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9DE8C1ED27920A9200596339 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8C1EB27920A7C00596339 /* MatchCell.swift */,
+				9DE8C1F02793685000596339 /* MatchDetailCell.swift */,
+				9DE8C1F427937F8800596339 /* MatchesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA6B220949805B2FA64965B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				001DC11F0C428AC6448F7B58 /* Pods-MidniteAssessment.debug.xcconfig */,
+				C35621C0CD42F530F3E3C028 /* Pods-MidniteAssessment.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DE8C1B42791D0EB00596339 /* Build configuration list for PBXNativeTarget "MidniteAssessment" */;
 			buildPhases = (
+				6780F913B14FBF220FA0DCF8 /* [CP] Check Pods Manifest.lock */,
 				9DE8C19C2791D0E900596339 /* Sources */,
 				9DE8C19D2791D0E900596339 /* Frameworks */,
 				9DE8C19E2791D0E900596339 /* Resources */,
+				222A06E5618DE2C9F6F5E760 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +255,24 @@
 			productName = MidniteAssessment;
 			productReference = 9DE8C1A02791D0E900596339 /* MidniteAssessment.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9DE8C1D42791FE8000596339 /* MidniteAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE8C1DB2791FE8000596339 /* Build configuration list for PBXNativeTarget "MidniteAssessmentTests" */;
+			buildPhases = (
+				9DE8C1D12791FE8000596339 /* Sources */,
+				9DE8C1D22791FE8000596339 /* Frameworks */,
+				9DE8C1D32791FE8000596339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DE8C1DA2791FE8000596339 /* PBXTargetDependency */,
+			);
+			name = MidniteAssessmentTests;
+			productName = MidniteAssessmentTests;
+			productReference = 9DE8C1D52791FE8000596339 /* MidniteAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +286,10 @@
 				TargetAttributes = {
 					9DE8C19F2791D0E900596339 = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					9DE8C1D42791FE8000596339 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9DE8C19F2791D0E900596339;
 					};
 				};
 			};
@@ -116,6 +307,7 @@
 			projectRoot = "";
 			targets = (
 				9DE8C19F2791D0E900596339 /* MidniteAssessment */,
+				9DE8C1D42791FE8000596339 /* MidniteAssessmentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,25 +318,113 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE8C1B02791D0EB00596339 /* LaunchScreen.storyboard in Resources */,
+				9DE8C1EF279330FC00596339 /* MockMatchDetail.json in Resources */,
 				9DE8C1AD2791D0EB00596339 /* Assets.xcassets in Resources */,
 				9DE8C1AB2791D0E900596339 /* Main.storyboard in Resources */,
+				9DE8C1EE279212A900596339 /* MockMatches.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE8C1D32791FE8000596339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		222A06E5618DE2C9F6F5E760 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6780F913B14FBF220FA0DCF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MidniteAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DE8C19C2791D0E900596339 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE8C1A82791D0E900596339 /* ViewController.swift in Sources */,
+				9DE8C1EC27920A7C00596339 /* MatchCell.swift in Sources */,
+				9DE8C1C22791E70800596339 /* GetMatchesAPIService.swift in Sources */,
+				9DE8C1BC2791E6CC00596339 /* MatchesViewModel.swift in Sources */,
+				9DE8C1CE2791EEC100596339 /* Coordinator.swift in Sources */,
+				9DE8C1C42791E72300596339 /* GetMatchesRequest.swift in Sources */,
+				9DE8C1D02791EED100596339 /* AppCoordinator.swift in Sources */,
+				9DE8C1CA2791E75900596339 /* APIServiceProtocol.swift in Sources */,
+				9DE8C1EA27920A5900596339 /* MatchCellViewModel.swift in Sources */,
+				9DE8C1F12793685000596339 /* MatchDetailCell.swift in Sources */,
+				9DE8C1BA2791E6A500596339 /* BaseRequestProtocol.swift in Sources */,
+				9DE8C1C02791E6ED00596339 /* Bindable.swift in Sources */,
+				9DE8C1F32793786F00596339 /* MatchDetailsCellViewModel.swift in Sources */,
+				9DE8C1F527937F8800596339 /* MatchesView.swift in Sources */,
+				9DE8C1C82791E74B00596339 /* APIError.swift in Sources */,
+				9DE8C1C62791E73800596339 /* APIRequestLoader.swift in Sources */,
+				9DE8C1B82791E69400596339 /* MatchesResponse.swift in Sources */,
+				9DE8C1A82791D0E900596339 /* MatchesViewController.swift in Sources */,
+				9DE8C1BE2791E6DB00596339 /* MatchesNetworkingManager.swift in Sources */,
 				9DE8C1A42791D0E900596339 /* AppDelegate.swift in Sources */,
+				9DE8C1E6279202D700596339 /* MatchDetailsViewModel.swift in Sources */,
+				9DE8C1CC2791E80200596339 /* MatchDetailsViewController.swift in Sources */,
 				9DE8C1A62791D0E900596339 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9DE8C1D12791FE8000596339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE8C1D82791FE8000596339 /* MidniteAssessmentTests.swift in Sources */,
+				9DE8C1E12791FF1700596339 /* MockMatchDetail.json in Sources */,
+				9DE8C1DF2791FEF900596339 /* MockMatches.json in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DE8C1DA2791FE8000596339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE8C19F2791D0E900596339 /* MidniteAssessment */;
+			targetProxy = 9DE8C1D92791FE8000596339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9DE8C1A92791D0E900596339 /* Main.storyboard */ = {
@@ -284,6 +564,7 @@
 		};
 		9DE8C1B52791D0EB00596339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001DC11F0C428AC6448F7B58 /* Pods-MidniteAssessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +575,6 @@
 				INFOPLIST_FILE = MidniteAssessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +592,7 @@
 		};
 		9DE8C1B62791D0EB00596339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35621C0CD42F530F3E3C028 /* Pods-MidniteAssessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +603,6 @@
 				INFOPLIST_FILE = MidniteAssessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +615,52 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DE8C1DC2791FE8000596339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNAH767L53;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yenting.MidniteAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidniteAssessment.app/MidniteAssessment";
+			};
+			name = Debug;
+		};
+		9DE8C1DD2791FE8000596339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNAH767L53;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yenting.MidniteAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidniteAssessment.app/MidniteAssessment";
 			};
 			name = Release;
 		};
@@ -355,6 +681,15 @@
 			buildConfigurations = (
 				9DE8C1B52791D0EB00596339 /* Debug */,
 				9DE8C1B62791D0EB00596339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE8C1DB2791FE8000596339 /* Build configuration list for PBXNativeTarget "MidniteAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE8C1DC2791FE8000596339 /* Debug */,
+				9DE8C1DD2791FE8000596339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

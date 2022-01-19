@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DA430C92796F143003C94FA /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430C82796F143003C94FA /* FlowCoordinator.swift */; };
+		9DA430CE2797F8DD003C94FA /* ApplicationFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430CD2797F8DD003C94FA /* ApplicationFlowCoordinator.swift */; };
+		9DA430D02797F91C003C94FA /* MathesNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430CF2797F91C003C94FA /* MathesNavigator.swift */; };
+		9DA430D22797FEB4003C94FA /* CoordinatorDependencyProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430D12797FEB4003C94FA /* CoordinatorDependencyProviders.swift */; };
+		9DA430D42797FF1A003C94FA /* MatchesUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430D32797FF1A003C94FA /* MatchesUseCaseType.swift */; };
+		9DA430D62797FFB0003C94FA /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430D52797FFB0003C94FA /* ApiConstants.swift */; };
+		9DA430D927980010003C94FA /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430D827980010003C94FA /* Resource.swift */; };
+		9DA430DD2798005F003C94FA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430DC2798005F003C94FA /* NetworkService.swift */; };
+		9DA430DF27980077003C94FA /* NetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430DE27980077003C94FA /* NetworkServiceType.swift */; };
+		9DA430E127980224003C94FA /* ApplicationComponentsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430E027980224003C94FA /* ApplicationComponentsFactory.swift */; };
+		9DA430E327980292003C94FA /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430E227980292003C94FA /* ServiceProvider.swift */; };
+		9DA430E62798032E003C94FA /* Publisher+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430E52798032E003C94FA /* Publisher+Utils.swift */; };
+		9DA430E9279804C2003C94FA /* MatchesFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430E8279804C2003C94FA /* MatchesFlowCoordinator.swift */; };
 		9DE8C1A42791D0E900596339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A32791D0E900596339 /* AppDelegate.swift */; };
 		9DE8C1A62791D0E900596339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A52791D0E900596339 /* SceneDelegate.swift */; };
 		9DE8C1A82791D0E900596339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A72791D0E900596339 /* ViewController.swift */; };
@@ -16,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DA430C82796F143003C94FA /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
+		9DA430CD2797F8DD003C94FA /* ApplicationFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowCoordinator.swift; sourceTree = "<group>"; };
+		9DA430CF2797F91C003C94FA /* MathesNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathesNavigator.swift; sourceTree = "<group>"; };
+		9DA430D12797FEB4003C94FA /* CoordinatorDependencyProviders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDependencyProviders.swift; sourceTree = "<group>"; };
+		9DA430D32797FF1A003C94FA /* MatchesUseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesUseCaseType.swift; sourceTree = "<group>"; };
+		9DA430D52797FFB0003C94FA /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		9DA430D827980010003C94FA /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		9DA430DC2798005F003C94FA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9DA430DE27980077003C94FA /* NetworkServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceType.swift; sourceTree = "<group>"; };
+		9DA430E027980224003C94FA /* ApplicationComponentsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationComponentsFactory.swift; sourceTree = "<group>"; };
+		9DA430E227980292003C94FA /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		9DA430E52798032E003C94FA /* Publisher+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Utils.swift"; sourceTree = "<group>"; };
+		9DA430E8279804C2003C94FA /* MatchesFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesFlowCoordinator.swift; sourceTree = "<group>"; };
 		9DE8C1A02791D0E900596339 /* MidniteAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidniteAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE8C1A32791D0E900596339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE8C1A52791D0E900596339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +63,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DA430CC2797F8C6003C94FA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430C82796F143003C94FA /* FlowCoordinator.swift */,
+				9DA430CD2797F8DD003C94FA /* ApplicationFlowCoordinator.swift */,
+				9DA430E027980224003C94FA /* ApplicationComponentsFactory.swift */,
+				9DA430CF2797F91C003C94FA /* MathesNavigator.swift */,
+				9DA430D12797FEB4003C94FA /* CoordinatorDependencyProviders.swift */,
+				9DA430E8279804C2003C94FA /* MatchesFlowCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9DA430D72797FFDC003C94FA /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430D32797FF1A003C94FA /* MatchesUseCaseType.swift */,
+				9DA430D52797FFB0003C94FA /* ApiConstants.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		9DA430DA27980017003C94FA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430DB27980020003C94FA /* Network */,
+				9DA430E227980292003C94FA /* ServiceProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9DA430DB27980020003C94FA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430DE27980077003C94FA /* NetworkServiceType.swift */,
+				9DA430DC2798005F003C94FA /* NetworkService.swift */,
+				9DA430D827980010003C94FA /* Resource.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9DA430E42798030E003C94FA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9DE8C1A52791D0E900596339 /* SceneDelegate.swift */,
+				9DE8C1A32791D0E900596339 /* AppDelegate.swift */,
+				9DA430CC2797F8C6003C94FA /* Coordinator */,
+				9DA430D72797FFDC003C94FA /* UseCases */,
+				9DA430DA27980017003C94FA /* Services */,
+				9DA430E727980352003C94FA /* Utils */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9DA430E727980352003C94FA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430E52798032E003C94FA /* Publisher+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9DE8C1972791D0E900596339 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +144,12 @@
 		9DE8C1A22791D0E900596339 /* MidniteAssessment */ = {
 			isa = PBXGroup;
 			children = (
-				9DE8C1A32791D0E900596339 /* AppDelegate.swift */,
-				9DE8C1A52791D0E900596339 /* SceneDelegate.swift */,
 				9DE8C1A72791D0E900596339 /* ViewController.swift */,
 				9DE8C1A92791D0E900596339 /* Main.storyboard */,
 				9DE8C1AC2791D0EB00596339 /* Assets.xcassets */,
 				9DE8C1AE2791D0EB00596339 /* LaunchScreen.storyboard */,
 				9DE8C1B12791D0EB00596339 /* Info.plist */,
+				9DA430E42798030E003C94FA /* Sources */,
 			);
 			path = MidniteAssessment;
 			sourceTree = "<group>";
@@ -138,8 +225,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA430E127980224003C94FA /* ApplicationComponentsFactory.swift in Sources */,
+				9DA430D22797FEB4003C94FA /* CoordinatorDependencyProviders.swift in Sources */,
+				9DA430E327980292003C94FA /* ServiceProvider.swift in Sources */,
+				9DA430CE2797F8DD003C94FA /* ApplicationFlowCoordinator.swift in Sources */,
+				9DA430D62797FFB0003C94FA /* ApiConstants.swift in Sources */,
+				9DA430D927980010003C94FA /* Resource.swift in Sources */,
+				9DA430C92796F143003C94FA /* FlowCoordinator.swift in Sources */,
+				9DA430E62798032E003C94FA /* Publisher+Utils.swift in Sources */,
+				9DA430E9279804C2003C94FA /* MatchesFlowCoordinator.swift in Sources */,
+				9DA430D02797F91C003C94FA /* MathesNavigator.swift in Sources */,
 				9DE8C1A82791D0E900596339 /* ViewController.swift in Sources */,
+				9DA430DF27980077003C94FA /* NetworkServiceType.swift in Sources */,
 				9DE8C1A42791D0E900596339 /* AppDelegate.swift in Sources */,
+				9DA430D42797FF1A003C94FA /* MatchesUseCaseType.swift in Sources */,
+				9DA430DD2798005F003C94FA /* NetworkService.swift in Sources */,
 				9DE8C1A62791D0E900596339 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

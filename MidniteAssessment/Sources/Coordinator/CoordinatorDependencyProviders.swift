@@ -12,7 +12,7 @@ protocol ApplicationFlowCoordinatorDependencyProvider: MatchesFlowCoordinatorDep
 
 protocol MatchesFlowCoordinatorDependencyProvider: AnyObject {
     /// Creates UIViewController to search for a movie
-    func matchesNavigationController(navigator: MathesNavigator) -> UINavigationController
+    func matchesNavigationController(navigator: MatchesNavigator) -> UINavigationController
 
     // Creates UIViewController to show the details of the movie with specified identifier
     func matchDetailsController(_ matchId: Int) -> UIViewController

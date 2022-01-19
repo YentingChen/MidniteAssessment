@@ -25,7 +25,8 @@ class MatchesFlowCoordinator: FlowCoordinator {
     }
 }
 
-extension MatchesFlowCoordinator: MathesNavigator {
+extension MatchesFlowCoordinator: MatchesNavigator {
+    
     func showDetails(forMatch matchId: Int) {
         
     }

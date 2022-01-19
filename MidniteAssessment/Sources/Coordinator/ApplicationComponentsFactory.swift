@@ -20,10 +20,12 @@ final class ApplicationComponentsFactory {
 }
 
 extension ApplicationComponentsFactory: ApplicationFlowCoordinatorDependencyProvider {
-    func matchesNavigationController(navigator: MathesNavigator) -> UINavigationController {
+    
+    func matchesNavigationController(navigator: MatchesNavigator) -> UINavigationController {
         
-        let vc = ViewController()
-        vc.view.backgroundColor = .red
+        let vm = MatchesViewModel(useCase: useCase, navigator: navigator)
+        let vc = MatchesViewController(viewModel: vm)
+        
         let matchesNavigationController = UINavigationController(rootViewController: vc)
         return matchesNavigationController
     }

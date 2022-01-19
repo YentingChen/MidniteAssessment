@@ -1,0 +1,6 @@
+framework module Pods_MidniteAssessmentTests {
+  umbrella header "Pods-MidniteAssessmentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -28,18 +28,3 @@ struct Resource<T: Decodable> {
         self.parameters = parameters
     }
 }
-
-extension Resource {
-    
-    static func matches() -> Resource<String> {
-        let url = ApiConstants.baseUrl.appendingPathComponent("/v0/matches/upcoming")
-        return Resource<String>(url: url)
-        
-    }
-    
-    static func details(matchId: Int) -> Resource<String> {
-        let url = ApiConstants.baseUrl.appendingPathComponent("/v0/matches/\(matchId)")
-        return Resource<String>(url: url)
-        
-    }
-}

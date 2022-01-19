@@ -20,15 +20,38 @@
 		9DA430E327980292003C94FA /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430E227980292003C94FA /* ServiceProvider.swift */; };
 		9DA430E62798032E003C94FA /* Publisher+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430E52798032E003C94FA /* Publisher+Utils.swift */; };
 		9DA430E9279804C2003C94FA /* MatchesFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430E8279804C2003C94FA /* MatchesFlowCoordinator.swift */; };
+		9DA430F127980C24003C94FA /* ApplicationFlowCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430F027980C24003C94FA /* ApplicationFlowCoordinatorTests.swift */; };
+		9DA430F827980C7F003C94FA /* ApplicationFlowCoordinatorDependencyProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430F727980C7F003C94FA /* ApplicationFlowCoordinatorDependencyProviderMock.swift */; };
+		9DA430FC279812A5003C94FA /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430FB279812A5003C94FA /* MatchesViewController.swift */; };
+		9DA430FE279813EA003C94FA /* MatchesViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430FD279813EA003C94FA /* MatchesViewModelType.swift */; };
+		9DA43100279814D3003C94FA /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA430FF279814D3003C94FA /* Match.swift */; };
+		9DA43103279819D1003C94FA /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA43102279819D1003C94FA /* MatchesView.swift */; };
+		9DA43105279819E4003C94FA /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA43104279819E4003C94FA /* MatchCell.swift */; };
+		9DA4310727981DF9003C94FA /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4310627981DF9003C94FA /* MatchesViewModel.swift */; };
+		9DA43109279833B3003C94FA /* Resource+Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA43108279833B3003C94FA /* Resource+Match.swift */; };
 		9DE8C1A42791D0E900596339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A32791D0E900596339 /* AppDelegate.swift */; };
 		9DE8C1A62791D0E900596339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A52791D0E900596339 /* SceneDelegate.swift */; };
 		9DE8C1A82791D0E900596339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A72791D0E900596339 /* ViewController.swift */; };
 		9DE8C1AB2791D0E900596339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8C1A92791D0E900596339 /* Main.storyboard */; };
 		9DE8C1AD2791D0EB00596339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8C1AC2791D0EB00596339 /* Assets.xcassets */; };
 		9DE8C1B02791D0EB00596339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8C1AE2791D0EB00596339 /* LaunchScreen.storyboard */; };
+		BD07096A381375630867619E /* Pods_MidniteAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BFCD4FB20E9591F5AE5512 /* Pods_MidniteAssessmentTests.framework */; };
+		CE716852C08E763BE3E6606C /* Pods_MidniteAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFA8B50B493B6A0B9701264 /* Pods_MidniteAssessment.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9DA430F227980C24003C94FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE8C1982791D0E900596339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE8C19F2791D0E900596339;
+			remoteInfo = MidniteAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		18B303D5DBCEE898D470651D /* Pods-MidniteAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidniteAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-MidniteAssessmentTests/Pods-MidniteAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		25BFCD4FB20E9591F5AE5512 /* Pods_MidniteAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidniteAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA430C82796F143003C94FA /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 		9DA430CD2797F8DD003C94FA /* ApplicationFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowCoordinator.swift; sourceTree = "<group>"; };
 		9DA430CF2797F91C003C94FA /* MathesNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathesNavigator.swift; sourceTree = "<group>"; };
@@ -42,6 +65,16 @@
 		9DA430E227980292003C94FA /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		9DA430E52798032E003C94FA /* Publisher+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Utils.swift"; sourceTree = "<group>"; };
 		9DA430E8279804C2003C94FA /* MatchesFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesFlowCoordinator.swift; sourceTree = "<group>"; };
+		9DA430EE27980C24003C94FA /* MidniteAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidniteAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA430F027980C24003C94FA /* ApplicationFlowCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowCoordinatorTests.swift; sourceTree = "<group>"; };
+		9DA430F727980C7F003C94FA /* ApplicationFlowCoordinatorDependencyProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowCoordinatorDependencyProviderMock.swift; sourceTree = "<group>"; };
+		9DA430FB279812A5003C94FA /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		9DA430FD279813EA003C94FA /* MatchesViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModelType.swift; sourceTree = "<group>"; };
+		9DA430FF279814D3003C94FA /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		9DA43102279819D1003C94FA /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		9DA43104279819E4003C94FA /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		9DA4310627981DF9003C94FA /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		9DA43108279833B3003C94FA /* Resource+Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resource+Match.swift"; sourceTree = "<group>"; };
 		9DE8C1A02791D0E900596339 /* MidniteAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidniteAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE8C1A32791D0E900596339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE8C1A52791D0E900596339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,13 +83,26 @@
 		9DE8C1AC2791D0EB00596339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE8C1AF2791D0EB00596339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE8C1B12791D0EB00596339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F3301E59F6830220E94513 /* Pods-MidniteAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidniteAssessment.debug.xcconfig"; path = "Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		AFBB0B491A5F998A49C60B14 /* Pods-MidniteAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidniteAssessment.release.xcconfig"; path = "Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		DCD9178083467B64B8FC8771 /* Pods-MidniteAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidniteAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-MidniteAssessmentTests/Pods-MidniteAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEFA8B50B493B6A0B9701264 /* Pods_MidniteAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidniteAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9DA430EB27980C24003C94FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD07096A381375630867619E /* Pods_MidniteAssessmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DE8C19D2791D0E900596339 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE716852C08E763BE3E6606C /* Pods_MidniteAssessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +115,6 @@
 				9DA430C82796F143003C94FA /* FlowCoordinator.swift */,
 				9DA430CD2797F8DD003C94FA /* ApplicationFlowCoordinator.swift */,
 				9DA430E027980224003C94FA /* ApplicationComponentsFactory.swift */,
-				9DA430CF2797F91C003C94FA /* MathesNavigator.swift */,
 				9DA430D12797FEB4003C94FA /* CoordinatorDependencyProviders.swift */,
 				9DA430E8279804C2003C94FA /* MatchesFlowCoordinator.swift */,
 			);
@@ -79,8 +124,10 @@
 		9DA430D72797FFDC003C94FA /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				9DA43101279814D6003C94FA /* Entities */,
 				9DA430D32797FF1A003C94FA /* MatchesUseCaseType.swift */,
 				9DA430D52797FFB0003C94FA /* ApiConstants.swift */,
+				9DA43108279833B3003C94FA /* Resource+Match.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -107,6 +154,7 @@
 		9DA430E42798030E003C94FA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9DA430FA27981256003C94FA /* Screens */,
 				9DE8C1A52791D0E900596339 /* SceneDelegate.swift */,
 				9DE8C1A32791D0E900596339 /* AppDelegate.swift */,
 				9DA430CC2797F8C6003C94FA /* Coordinator */,
@@ -125,11 +173,52 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		9DA430EF27980C24003C94FA /* MidniteAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430F027980C24003C94FA /* ApplicationFlowCoordinatorTests.swift */,
+				9DA430F92798116E003C94FA /* Mock */,
+			);
+			path = MidniteAssessmentTests;
+			sourceTree = "<group>";
+		};
+		9DA430F92798116E003C94FA /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430F727980C7F003C94FA /* ApplicationFlowCoordinatorDependencyProviderMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		9DA430FA27981256003C94FA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430CF2797F91C003C94FA /* MathesNavigator.swift */,
+				9DA430FB279812A5003C94FA /* MatchesViewController.swift */,
+				9DA430FD279813EA003C94FA /* MatchesViewModelType.swift */,
+				9DA43102279819D1003C94FA /* MatchesView.swift */,
+				9DA43104279819E4003C94FA /* MatchCell.swift */,
+				9DA4310627981DF9003C94FA /* MatchesViewModel.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9DA43101279814D6003C94FA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9DA430FF279814D3003C94FA /* Match.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		9DE8C1972791D0E900596339 = {
 			isa = PBXGroup;
 			children = (
 				9DE8C1A22791D0E900596339 /* MidniteAssessment */,
+				9DA430EF27980C24003C94FA /* MidniteAssessmentTests */,
 				9DE8C1A12791D0E900596339 /* Products */,
+				D90140E0A5814D96601551E2 /* Pods */,
+				A9758C2147541222C6E4EF3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				9DE8C1A02791D0E900596339 /* MidniteAssessment.app */,
+				9DA430EE27980C24003C94FA /* MidniteAssessmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,16 +244,57 @@
 			path = MidniteAssessment;
 			sourceTree = "<group>";
 		};
+		A9758C2147541222C6E4EF3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA8B50B493B6A0B9701264 /* Pods_MidniteAssessment.framework */,
+				25BFCD4FB20E9591F5AE5512 /* Pods_MidniteAssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90140E0A5814D96601551E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3301E59F6830220E94513 /* Pods-MidniteAssessment.debug.xcconfig */,
+				AFBB0B491A5F998A49C60B14 /* Pods-MidniteAssessment.release.xcconfig */,
+				DCD9178083467B64B8FC8771 /* Pods-MidniteAssessmentTests.debug.xcconfig */,
+				18B303D5DBCEE898D470651D /* Pods-MidniteAssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9DA430ED27980C24003C94FA /* MidniteAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA430F427980C24003C94FA /* Build configuration list for PBXNativeTarget "MidniteAssessmentTests" */;
+			buildPhases = (
+				B196E277D0E22151A93A673C /* [CP] Check Pods Manifest.lock */,
+				9DA430EA27980C24003C94FA /* Sources */,
+				9DA430EB27980C24003C94FA /* Frameworks */,
+				9DA430EC27980C24003C94FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA430F327980C24003C94FA /* PBXTargetDependency */,
+			);
+			name = MidniteAssessmentTests;
+			productName = MidniteAssessmentTests;
+			productReference = 9DA430EE27980C24003C94FA /* MidniteAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9DE8C19F2791D0E900596339 /* MidniteAssessment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DE8C1B42791D0EB00596339 /* Build configuration list for PBXNativeTarget "MidniteAssessment" */;
 			buildPhases = (
+				3F1DFA5320E149AB7C6BEAF6 /* [CP] Check Pods Manifest.lock */,
 				9DE8C19C2791D0E900596339 /* Sources */,
 				9DE8C19D2791D0E900596339 /* Frameworks */,
 				9DE8C19E2791D0E900596339 /* Resources */,
+				17E1B8ED70DF26FBAD4AEA46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +315,10 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					9DA430ED27980C24003C94FA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9DE8C19F2791D0E900596339;
+					};
 					9DE8C19F2791D0E900596339 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -203,11 +338,19 @@
 			projectRoot = "";
 			targets = (
 				9DE8C19F2791D0E900596339 /* MidniteAssessment */,
+				9DA430ED27980C24003C94FA /* MidniteAssessmentTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9DA430EC27980C24003C94FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DE8C19E2791D0E900596339 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,7 +363,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17E1B8ED70DF26FBAD4AEA46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MidniteAssessment/Pods-MidniteAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F1DFA5320E149AB7C6BEAF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MidniteAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B196E277D0E22151A93A673C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MidniteAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		9DA430EA27980C24003C94FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA430F127980C24003C94FA /* ApplicationFlowCoordinatorTests.swift in Sources */,
+				9DA430F827980C7F003C94FA /* ApplicationFlowCoordinatorDependencyProviderMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DE8C19C2791D0E900596339 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,18 +449,33 @@
 				9DA430D927980010003C94FA /* Resource.swift in Sources */,
 				9DA430C92796F143003C94FA /* FlowCoordinator.swift in Sources */,
 				9DA430E62798032E003C94FA /* Publisher+Utils.swift in Sources */,
+				9DA43100279814D3003C94FA /* Match.swift in Sources */,
 				9DA430E9279804C2003C94FA /* MatchesFlowCoordinator.swift in Sources */,
+				9DA4310727981DF9003C94FA /* MatchesViewModel.swift in Sources */,
 				9DA430D02797F91C003C94FA /* MathesNavigator.swift in Sources */,
+				9DA430FE279813EA003C94FA /* MatchesViewModelType.swift in Sources */,
 				9DE8C1A82791D0E900596339 /* ViewController.swift in Sources */,
 				9DA430DF27980077003C94FA /* NetworkServiceType.swift in Sources */,
 				9DE8C1A42791D0E900596339 /* AppDelegate.swift in Sources */,
+				9DA430FC279812A5003C94FA /* MatchesViewController.swift in Sources */,
+				9DA43103279819D1003C94FA /* MatchesView.swift in Sources */,
 				9DA430D42797FF1A003C94FA /* MatchesUseCaseType.swift in Sources */,
+				9DA43105279819E4003C94FA /* MatchCell.swift in Sources */,
 				9DA430DD2798005F003C94FA /* NetworkService.swift in Sources */,
+				9DA43109279833B3003C94FA /* Resource+Match.swift in Sources */,
 				9DE8C1A62791D0E900596339 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DA430F327980C24003C94FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE8C19F2791D0E900596339 /* MidniteAssessment */;
+			targetProxy = 9DA430F227980C24003C94FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9DE8C1A92791D0E900596339 /* Main.storyboard */ = {
@@ -266,6 +497,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9DA430F527980C24003C94FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD9178083467B64B8FC8771 /* Pods-MidniteAssessmentTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNAH767L53;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yenting.MidniteAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidniteAssessment.app/MidniteAssessment";
+			};
+			name = Debug;
+		};
+		9DA430F627980C24003C94FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B303D5DBCEE898D470651D /* Pods-MidniteAssessmentTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNAH767L53;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yenting.MidniteAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MidniteAssessment.app/MidniteAssessment";
+			};
+			name = Release;
+		};
 		9DE8C1B22791D0EB00596339 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -384,6 +663,7 @@
 		};
 		9DE8C1B52791D0EB00596339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F3301E59F6830220E94513 /* Pods-MidniteAssessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -412,6 +692,7 @@
 		};
 		9DE8C1B62791D0EB00596339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBB0B491A5F998A49C60B14 /* Pods-MidniteAssessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +722,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9DA430F427980C24003C94FA /* Build configuration list for PBXNativeTarget "MidniteAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA430F527980C24003C94FA /* Debug */,
+				9DA430F627980C24003C94FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9DE8C19B2791D0E900596339 /* Build configuration list for PBXProject "MidniteAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
